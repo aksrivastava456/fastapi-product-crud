@@ -2,7 +2,7 @@ from fastapi import FastAPI # pyright: ignore[reportMissingImports]
 from routes import product_routes # pyright: ignore[reportMissingImports]
 from fastapi.middleware.cors import CORSMiddleware
 
-origins = ["http://localhost:5173", "http://loacalhost:3000"]
+origins = ["http://localhost:5173", "http://loacalhost:3000", "https://fastapi-product-control-center.vercel.app"]
 
 app = FastAPI()
 
